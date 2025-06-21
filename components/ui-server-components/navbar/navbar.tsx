@@ -16,7 +16,7 @@ export default function Navbar() {
         variant="link"
         className=" underline-offset-8 scroll-m-20 px-0 font-semibold text-lg sm:text-lg "
       >
-        <Link href="/blog">medium</Link>
+        <Link href="/writing">writing</Link>
       </Button>
       <Button
         size="default"
