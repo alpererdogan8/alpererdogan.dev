@@ -4,7 +4,7 @@ export const revalidate = 0; // seconds
 export const dynamic = "force-dynamic";
 const getBookmarks = async () => {
   const response = await fetch(
-    `https://api.raindrop.io/rest/v1/raindrops/39422051`,
+    `https://api.raindrop.io/rest/v1/raindrops/56941831`,
     {
       headers: {
         Authorization: `Bearer ${process.env.RAINDROP_ACCESS_TOKEN}`,
